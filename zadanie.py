@@ -1,10 +1,10 @@
 import random
 
-podaj_najniższą=int(input("Podaj podłogę: "))
-podaj_najwyższą=int(input("Podaj sufit: "))
+min=int(input("Podaj podłogę: "))
+max=int(input("Podaj sufit: "))
 
 
-c=random.randint(podaj_najniższą,podaj_najwyższą)
+c=random.randint(min, max)
 
 def sprawdzanie(c):
 
